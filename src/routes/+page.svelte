@@ -5,6 +5,10 @@
     import USP from '$lib/USP.svelte';
     import FAQ from '$lib/FAQ.svelte';
     import Footer from '$lib/Footer.svelte';
+    import Testimonials from '$lib/Testimonials.svelte';
+    import Pricing from '$lib/Pricing.svelte';
+    import Samples from '$lib/Samples.svelte';
+    import OverlapBackgroundContent from '$lib/OverlapBackgroundContent.svelte';
   </script>
   
   <Calculator />
@@ -12,24 +16,23 @@
       <!-- Divider -->
       <div class="border-t border-gray-300"></div>
 
-  <OneTwoThree />
+  <Testimonials />
 
         <!-- Divider -->
         <div class="border-t border-gray-300"></div>
-  <Signup />
+ 
+        <div class="border-t border-gray-300"></div>
 
+
+  <Pricing />
+
+  <div class="border-t border-gray-300"></div>
+
+  <OverlapBackgroundContent />
+
+  <Samples />
         <!-- Divider -->
         <div class="border-t border-gray-300"></div>
 
-  <USP />
-
-          <!-- Divider -->
-          <div class="border-t border-gray-300"></div>
-
-  <FAQ />
-
-          <div class="border-t border-gray-300"></div>
-
-  <Signup />
-
+        <Pricing />
   <Footer />

@@ -8,15 +8,15 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#e2c02b",
-          secondary: "#115164",
-          accent: "#7e9aa7",
-          neutral: "#292b34",
-          "base-100": "#e5ebe3",
-          info: "#006dd2",
-          success: "#7db14c",
-          warning: "#faa114",
-          error: "#a31309",
+          "primary": "#233B5E",
+          "secondary": "#9F9ECB",
+          "accent": "#B79351",
+          "neutral": "#A3AAA7",
+          "base-100": "#f7f5f3",
+          "info": "292828",
+          "success": "#76A049",
+          "warning": "#f39011",
+          "error": "#f44336",
         },
       },
     ],
@@ -24,23 +24,24 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        raleway: ['Raleway', 'sans-serif'],
-        overpass: ['Overpass', 'sans-serif'],
+        david: ['David Libre', 'sans-serif'],
+        abhaya: ['Abhaya Libre', 'serif'],
+        overpass: ['Overpass Variable', 'sans-serif'],
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            h1: { fontFamily: theme('fontFamily.raleway') },
-            h2: { fontFamily: theme('fontFamily.raleway') },
-            h3: { fontFamily: theme('fontFamily.raleway') },
-            h4: { fontFamily: theme('fontFamily.raleway') },
-            h5: { fontFamily: theme('fontFamily.raleway') },
-            h6: { fontFamily: theme('fontFamily.raleway') },
-            p: { fontFamily: theme('fontFamily.cormorant') },
-            span: { fontFamily: theme('fontFamily.cormorant') },
-            a: { fontFamily: theme('fontFamily.cormorant') },
-            li: { fontFamily: theme('fontFamily.cormorant') },
-            blockquote: { fontFamily: theme('fontFamily.cormorant') },
+            h1: { fontFamily: theme('fontFamily.overpass') },
+            h2: { fontFamily: theme('fontFamily.rokkit') },
+            h3: { fontFamily: theme('fontFamily.rokkit') },
+            h4: { fontFamily: theme('fontFamily.rokkit') },
+            h5: { fontFamily: theme('fontFamily.rokkit') },
+            h6: { fontFamily: theme('fontFamily.rokkit') },
+            p: { fontFamily: theme('fontFamily.abhaya') },
+            span: { fontFamily: theme('fontFamily.abhaya') },
+            a: { fontFamily: theme('fontFamily.abhaya') },
+            li: { fontFamily: theme('fontFamily.abhaya') },
+            blockquote: { fontFamily: theme('fontFamily.abhaya') },
             // Add other elements as needed
           },
         },
